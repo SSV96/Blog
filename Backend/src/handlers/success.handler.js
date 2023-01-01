@@ -1,0 +1,1 @@
+export const successHandler = (response, message, success, data) => response.json({ message, success, data });

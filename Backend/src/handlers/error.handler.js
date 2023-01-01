@@ -1,0 +1,1 @@
+export const errorHandler = (response, message, error, success) => response.json({ message, error, success });
